@@ -200,9 +200,6 @@ wget https://raw.githubusercontent.com/analogdevicesinc/libiio/libiio-v0/example
 ```bash
 arm-linux-gnueabihf-gcc -mfloat-abi=hard  --sysroot=$HOME/plutosdr-fw/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -std=gnu99 -g -o pluto_stream ad9361-iiostream.c -lpthread -liio -lm -Wall -Wextra -lrt
 ```
-```
-arm-linux-gnueabihf-gcc -mfloat-abi=hard  --sysroot=<img src="https://latex.codecogs.com/gif.latex?HOME/plutosdr-fw/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot%20-std=gnu99%20-g%20-o%20trigger_iio%20trigger_iio.c%20-lpthread%20-lm%20-Wall%20-Wextra%20-lrt&lt;font%20color=blue&gt;For%20debugging:%20cross-compile%20with%20the%20lowest%20optimization%20level%20(-O0),%20and%20debug%20information&lt;/font&gt;```basharm-linux-gnueabihf-gcc%20-mfloat-abi=hard%20--sysroot="/>HOME/plutosdr-fw/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -std=gnu99 -O0 -g -fno-inline -o trigger trigger.c -lpthread -liio -lm -Wall -Wextra -lrt
-```
 
 <font color=red>
 Notice: 
@@ -330,8 +327,5 @@ arm-linux-gnueabihf-gdb
 (gdb) file sineWave
 target remote 192.168.2.1:1234
 ```
-  
-copy file from pluto SDR to local computer
-```
-scp xx(file) /../ (destination path)
-```
+
+Note: This repository was inspired by related technical articles and received technical support from the Analog Devices Forum, as well as other sources.
