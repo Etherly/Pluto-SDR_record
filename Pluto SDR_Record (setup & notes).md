@@ -181,6 +181,7 @@ It is better NOT directly download and install via command
 sudo apt install gcc-arm-linux-gnueabihf
 ```
 Otherwise, we will meet with problems while cross-compiling the code, such as
+
 <img src="assets/error_crossCompile.png" style="width:70%; height:50%">
   
 Verifying if the installation was successful:
@@ -188,6 +189,7 @@ Verifying if the installation was successful:
 arm-linux-gnueabihf-gcc --version
 ```
 It will show:
+
 <img src="assets/LinaroInstallation.png" style="width:70%; height:50">
   
 ## 2. Prepare code and cross-compile
