@@ -6,4 +6,4 @@ This repo helps to provide a detailed instructions for deploying file on Pluto S
    Pluto SDR rev.c
    Pluto SDR firmware 0.38
 
-This repo got inspiration from technical 
+Note: This repository was inspired by related technical articles and received technical support from the Analog Devices Forum, as well as other sources.
