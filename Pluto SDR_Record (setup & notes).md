@@ -223,6 +223,7 @@ scp pluto_stream root@192.168.2.1:/tmp/
 ssh -t root@192.168.2.1 /tmp/pluto_stream
 ```
 We can see:
+
 <img src="assets/PlutoStandalone.png" style="width:70%; height:50%">
   
   
