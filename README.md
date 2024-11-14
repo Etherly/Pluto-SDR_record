@@ -1,4 +1,4 @@
-This repo helps to provide a detailed instructions for deploying file on Pluto SDR and make it running standalone. 
+This repository provides detailed instructions for deploying files on the Pluto SDR and making it run standalone.
 
 Test environment:
 - VMware 17.5.1 (on Windows 11);
