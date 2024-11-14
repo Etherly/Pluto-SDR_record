@@ -94,9 +94,11 @@ chmod +x ./Xilinx_Unified_2022.2_1014_8888_Lin64.bin
   
 ### 4.2 Install
 Then the installer will be activated. Sign in with Xilinx account, choose the first one: Vitis
+
 <img src="assets/VitisInstall.png" style="width:70%;height:50%" />
   
 Choose the necessary parts
+
 <img src="assets/VivadoChoose.png" style="width:70%; height:50%">
   
 <font color=red>
